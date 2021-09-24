@@ -5,3 +5,41 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Playfair Display', serif;
 }
+.home img{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 370px;
+    width: 370px;
+    border: 10px solid #84A59D;
+    margin: 15px;
+    margin-left: 100px;
+}
+.home .container{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.home p{
+    width: 285px;
+}
+.home .btn {
+    background-color: #F5CAC3;
+    border-radius: 45px;
+    width: 285px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: #F7EDE2;
+}
+.home .buttons{
+    display: flex;
+    flex-direction: column;
+}
+.home .col{
+    /* margin:100px; */
+}
+.home h1{
+    font-size: 48px;
+}

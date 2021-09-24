@@ -1,8 +1,26 @@
 <template>
 <div class="home">
-    <h1>Emma Stoverink</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="container d-flex justify-content-center flex-nowrap">
+
+
+        <div class="row">
+            <div class="col">
+
+
+                <h1>Emma Stoverink</h1>
+                <p>Computer science student, creative problem solver, and ....</p>
+                    <div class = "buttons">
+                    <button type="button" class="btn">About</button>
+                    <button type="button" class="btn">Projects</button>
+                    <button type="button" class="btn">Contact</button>
+                </div>
+
+            </div>
+            <div class="col">
+                    <img src="../assets/portrait.jpg" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 </template>
 
