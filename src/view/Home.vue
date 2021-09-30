@@ -1,8 +1,9 @@
 <template>
 <div class="home">
+
     <div class="container d-flex justify-content-center flex-nowrap">
 
-
+<appNav></appNav>
         <div class="row">
             <div class="col">
 
@@ -25,11 +26,12 @@
 </template>
 
 <script>
+import Nav from '../components/Nav.vue'
 export default {
     name: 'Home',
-    // props: {
-    //     msg: String
-    // },
+    components: {
+        appNav: Nav
+    }
 }
 </script>
 

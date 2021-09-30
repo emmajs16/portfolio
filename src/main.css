@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
-#app{
+
+#app {
     font-family: 'Open Sans', sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
-.home img{
+
+.home img {
     object-fit: cover;
     border-radius: 50%;
     height: 370px;
@@ -13,16 +16,21 @@ h1,h2,h3,h4,h5,h6{
     border: 10px solid #84A59D;
     margin: 15px;
     margin-left: 100px;
+    box-shadow: 5px 5px 5px grey;
 }
-.home .container{
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+
+.home .container {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
-.home p{
+
+.home p {
     width: 285px;
 }
+
 .home .btn {
     background-color: #F5CAC3;
     border-radius: 45px;
@@ -30,16 +38,31 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 5px 5px 5px grey;
     margin-top: 20px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #F7EDE2;
 }
-.home .buttons{
+
+.home .buttons {
     display: flex;
     flex-direction: column;
 }
-.home .col{
+
+.home .col {
     /* margin:100px; */
 }
-.home h1{
+
+.home h1 {
     font-size: 48px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5CAC3;
+    width: 100px;
+}
+.nav-item{
+    background-color: #F7EDE2;
+    padding: 10px;
+    margin-top: 10px;
 }
