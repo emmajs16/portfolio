@@ -7,16 +7,13 @@
                 <a href="#"> ES </a>
             </li>
             <li class="nav-item">
-                <a href="#"> Home </a>
+                <a href="#"> About </a>
             </li>
             <li class="nav-item">
-                <a href="#"> Services </a>
+                <a href="#"> Projects </a>
             </li>
             <li class="nav-item">
                 <a href="#"> Contact </a>
-            </li>
-            <li class="nav-item">
-                <a href="#"> Blogs </a>
             </li>
         </ul>
     </nav>

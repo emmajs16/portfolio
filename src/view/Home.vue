@@ -1,9 +1,7 @@
 <template>
 <div class="home">
-
-    <div class="container d-flex justify-content-center flex-nowrap">
-
-<appNav></appNav>
+    <div class="container-fluid d-flex justify-content-center flex-nowrap">
+        <appNav></appNav>
         <div class="row">
             <div class="col">
 
