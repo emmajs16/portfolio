@@ -32,7 +32,5 @@ export default {
 };
 </script>
 <style>
-/* .v-btn{
-    background-color: pink !important;
-} */
+
 </style>

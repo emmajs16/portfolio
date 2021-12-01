@@ -1,22 +1,31 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
-    <v-card
-      class="d-flex flex-row"
+     <v-card
+      class="d-flex flex-row my-6"
       flat
       tile
     >
-    <h1>Hi, I'm Emma Stoverink!</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <v-img
-  lazy-src="https://picsum.photos/id/11/10/6"
-  max-height="150"
-  max-width="250"
-  src="https://picsum.photos/id/11/500/300"
+<v-container class="justify-center d-flex">
+    <v-row class="align-center">
+        <v-col class = "d-flex buttons" align="center"
+      justify="center">
+            <v-spacer>
+            <h1>Hi, I'm Emma Stoverink!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</v-spacer>
+</v-col>
+<v-col>
+    <v-img
+lazy-src="https://picsum.photos/id/11/10/6"
+class ="img"
+src="../assets/portrait.jpg"
 ></v-img>
+    </v-col>
+    </v-row>
+</v-container>
     </v-card>
-
+<v-container>
+<h2>Experience</h2>
 
     <v-timeline
    align-top
@@ -40,7 +49,8 @@
      </v-card>
    </v-timeline-item>
  </v-timeline>
- <div class="skills">
+</v-container>
+<v-container class="skills">
     <h2>Skills</h2>
     <div class="row">
         <div class="col">
@@ -81,7 +91,7 @@
             </ul>
         </div>
     </div>
-</div>
+</v-container>
 
 
   </div>
@@ -92,19 +102,34 @@ export default {
     name: 'About',
     data: () => ({
       items: [
-        {
-        company: 'Kode With Klossy',
-        positions:[{title:"job", date:"date"},{title:"job", date:"date"}]
-        },
+          {
+              company: "The Walt Disney Company",
+              positions:[{title:"Enterprise Technology Software Engineer Intern", date:"May 2021 - present"}]
+          },
+          {
+              company: "Florida Southern College Office of Admissions",
+              positions:[{title:"Southern Ambassador", date:"December 2018 - present"}]
+          },
+          {
+          company: 'Kode With Klossy',
+          positions:[{title:"Instructor Assistant", date:"June 2017 - August 2020"},{title:"Community Camp Instructor Assistant", date:"August 2020"}, {title:"Regional Club Facilitator", date:"November 2020- May 2021"},]
+          },
         {
             company: "DICK's Sporting Goods",
-            positions:[{title:"job", date:"date"}]
+            positions:[{title:"Corporate Software Engineer Intern", date:"June 2020 - July 2020"}]
         },
-        {
-            company: "The Walt Disney Company",
-            positions:[{title:"job", date:"date"}]
-        },
+
       ],
     }),
 }
 </script>
+<style scoped>
+.img {
+border-radius: 50%;
+height: 250px;
+width: 250px;
+border: 10px solid #84A59D;
+margin: 15px;
+box-shadow: 5px 5px 5px grey;
+}
+</style>
