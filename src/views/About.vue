@@ -7,8 +7,7 @@
     >
 <v-container class="justify-center d-flex">
     <v-row class="align-center">
-        <v-col class = "d-flex buttons" align="center"
-      justify="center">
+        <v-col class = "d-flex buttons">
             <v-spacer>
             <h1>Hi, I'm Emma Stoverink!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -104,11 +103,11 @@ export default {
       items: [
           {
               company: "The Walt Disney Company",
-              positions:[{title:"Enterprise Technology Software Engineer Intern", date:"May 2021 - present"}]
+              positions:[{title:"Enterprise Technology Software Engineer Intern", date:"May 2021 - December 2021"}, {title:"Associate Software Engineer", date:"January 2022 - present"}]
           },
           {
               company: "Florida Southern College Office of Admissions",
-              positions:[{title:"Southern Ambassador", date:"December 2018 - present"}]
+              positions:[{title:"Southern Ambassador", date:"December 2018 - December 2021"}]
           },
           {
           company: 'Kode With Klossy',
@@ -126,8 +125,8 @@ export default {
 <style scoped>
 .img {
 border-radius: 50%;
-height: 250px;
-width: 250px;
+height: 275px;
+width: 275px;
 border: 10px solid #84A59D;
 margin: 15px;
 box-shadow: 5px 5px 5px grey;
